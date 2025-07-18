@@ -36,10 +36,9 @@ Please execute the following steps:
 ```
 
 5. Now open up a terminal and execute: 
-    a. `cd dicom-microcopy-viewer && yarn install` 
-    b. `yarn link`
-    c. `cd ../slim && yarn link dicom-microscopy-viewer`
-    d. `cd ../dicom-microscopy-viewer && yarn webpack:dynamic-import:watch`
+    a. `cd dicom-microcopy-viewer && yarn link` 
+    b. `cd ../slim && yarn link dicom-microscopy-viewer`
+    c. `cd ../dicom-microscopy-viewer && yarn webpack:dynamic-import:watch`
 
 6. Open a second terminal and execute: 
     a. `cd slim && yarn start`
