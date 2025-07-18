@@ -1,6 +1,8 @@
 [submodule "slim"]
 	path = slim
 	url = https://github.com/ImagingDataCommons/slim.git
+	branch = fix/296-298
 [submodule "dicom-microscopy-viewer"]
 	path = dicom-microscopy-viewer
 	url = https://github.com/ImagingDataCommons/dicom-microscopy-viewer.git
+	branch = fix/296-298

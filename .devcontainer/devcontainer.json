@@ -1,0 +1,26 @@
+{
+  "name": "Slim Dev Node TypeScript DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile", 
+    "args": {
+    "REMOTE_USER": "vscode",
+    "IMAGE_USER": "vscode"
+    }
+  },
+  "workspaceFolders": [
+    "/workspaces/main",
+    "/workspaces/slim-dev/slim",
+    "/workspaces/slim-dev/dicom-microscopy-viewer"
+  ],
+  "postCreateCommand": "yarn install",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
