@@ -1,11 +1,7 @@
 {
   "name": "Slim Dev Node TypeScript DevContainer",
   "build": {
-    "dockerfile": "Dockerfile", 
-    "args": {
-    "REMOTE_USER": "vscode",
-    "IMAGE_USER": "vscode"
-    }
+    "dockerfile": "Dockerfile"
   },
   "workspaceFolders": [
     "/workspaces/main",
